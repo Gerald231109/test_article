@@ -1,8 +1,8 @@
 module.exports = {
     HOST: "localhost",
     USER: "postgres",
-    PASSWORD: "SergoKustNa100%Skiloviy",
-    DB: "test",
+    PASSWORD: "", // Здесь должен быть ваш пароль
+    DB: "test", // Здесь название БД
     dialect: "postgres",
     pool: {
         max: 5,
