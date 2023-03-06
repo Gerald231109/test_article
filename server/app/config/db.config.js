@@ -1,4 +1,4 @@
-module.eports = {
+module.exports = {
     HOST: "localhost",
     USER: "postgres",
     PASSWORD: "SergoKustNa100%Skiloviy",

@@ -4,7 +4,7 @@ const Comment = db.comments;
 const Sequelize = require('sequelize');
 const op = Sequelize.Op;
 
-exports.createTutorial = (req, res) => {
+exports.createArticle = (req, res) => {
     const article = {
         title: req.body.title,
         text: req.body.textContent
@@ -41,7 +41,7 @@ exports.createComment = (req, res) => {
         });
 };
 
-exports.findTutorialById = (req, res) => {
+exports.findArticleById = (req, res) => {
     Article.findByPk(req.params.id, { include: ["comments"] })
         .then(article => {
             console.log(req)

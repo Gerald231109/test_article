@@ -3,13 +3,13 @@ module.exports = app => {
 
     var router = require("express").Router();
 
-    router.post("/", articles.createTutorial);
+    router.post("/", articles.createArticle);
 
     router.post("/:id", articles.createComment);
 
     router.get("/", articles.findAll);
 
-    router.get("/:id", articles.findTutorialById);
+    router.get("/:id", articles.findArticleById);
 
     router.patch("/:id", articles.update, articles.updateComment);
 
