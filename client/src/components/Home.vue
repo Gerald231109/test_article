@@ -45,7 +45,7 @@
                   :subtitle="article.text"
 
                   rounded="xl">
-            <v-btn :to="{name: 'OneItem', params:{id:`${article.id}`}}" class="ma-1" width="30" height="30" color="teal-darken-4">Читать</v-btn>
+            <v-btn :to="{name: 'OneArticle', params:{id:`${article.id}`}}" class="ma-1" width="30" height="30" color="teal-darken-4">Читать</v-btn>
             <v-btn :to="{name: 'EditingArticle', params:{id:`${article.id}`}}" class="ma-1" width="30" height="30" color="primary"  icon="mdi-pencil"></v-btn>
             <v-btn @click="deleti(article.id)" class="ma-1" width="30" height="30" color="red" icon="mdi-cancel"></v-btn>
           </v-list-item>
