@@ -6,5 +6,5 @@
 
 Используйте npm install в дирректории server, а затем client перед запуском
 
-Для запуска server используйте node server.js
-Для запуска client используйте npm run serve
+Для запуска server используйте <h2>"node server.js"</h2>
+Для запуска client используйте <h2>"npm run serve"</h2>
