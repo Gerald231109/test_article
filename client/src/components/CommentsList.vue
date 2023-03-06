@@ -60,7 +60,9 @@
                                 v-for="comment in article.comments"
                                 :key="comment.id"
                         >
-                            <v-list-item-title>{{ comment.nameCommentator }} писал(а): {{comment.textComment}}</v-list-item-title>
+                            <v-list-item-title>{{ comment.nameCommentator }} писал(а): {{comment.textComment}}
+                                <v-divider color="black"></v-divider>
+                            </v-list-item-title>
                         </v-list-item>
                     </v-list>
                 </v-menu>
